@@ -1,0 +1,21 @@
+.shopbycategory-img > img {
+  display: block;
+  width: 100%;
+}
+.main-shopbycategory-images button.slick-arrow {
+  z-index: 5;
+}
+@media only screen and (max-width: 668px) {
+  .main-shopbycategory-images button.slick-arrow.slick-next {
+    right: -3px;
+  }
+  .main-shopbycategory-images button.slick-arrow.slick-prev {
+    left: -3px;
+  }
+}
+.shop_by_category .conatiner.d-flex {
+  justify-content: center;
+}
+.shop_by_category .main-shopbycategory-images {
+  width: 90%;
+}

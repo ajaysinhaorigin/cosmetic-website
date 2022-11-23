@@ -1,0 +1,7 @@
+.advertisment-img {
+  background-color: red;
+}
+.advertisment-img > img {
+  display: block;
+  width: 100%;
+}

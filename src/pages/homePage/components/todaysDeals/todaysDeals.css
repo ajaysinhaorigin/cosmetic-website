@@ -1,0 +1,15 @@
+.todaysdeals-img > img {
+  display: block;
+  width: 100%;
+  /* padding-left: 1rem; */
+}
+
+.todayDeal_span1 {
+  padding: 0 2px;
+  background-color: #ee2d7a;
+  color: white;
+}
+.todayDeal_span2 {
+  padding: 0 5px;
+  color: #ee58be;
+}

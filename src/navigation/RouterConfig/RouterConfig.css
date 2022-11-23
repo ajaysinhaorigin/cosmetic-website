@@ -1,0 +1,18 @@
+/* .input-field input {
+    border: ;
+} */
+
+body{
+    overflow-x: hidden;
+}
+.header-child{
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.header-child >div {
+    justify-content: space-between;
+}
+.menu-icon >img {
+   max-width: 2rem;
+}

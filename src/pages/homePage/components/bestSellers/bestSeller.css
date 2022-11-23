@@ -1,0 +1,6 @@
+.bestsellers-img > img {
+  display: block;
+  width: 100%;
+  padding-left: 1rem;
+  border: 1px solid rgb(172, 168, 168);
+}

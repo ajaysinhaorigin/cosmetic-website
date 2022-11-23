@@ -1,0 +1,12 @@
+.social_media_slider button.slick-arrow.slick-next::before {
+  content: "\f054";
+  font: normal normal normal 2rem/1 FontAwesome;
+  font-size: 2rem;
+  color: grey;
+}
+.social_media_slider button.slick-arrow.slick-prev::before {
+  content: "\f053";
+  font: normal normal normal 2rem/1 FontAwesome;
+  font-size: 2rem;
+  color: grey;
+}
