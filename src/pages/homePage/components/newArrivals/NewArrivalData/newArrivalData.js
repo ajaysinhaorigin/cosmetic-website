@@ -6,7 +6,7 @@
 // import arrivalimg6 from "../newArrivals-images/6.png"
 import NewArrivalImg from "../../../../../assets/homePageAssets";
 
-const arrivalData = [
+export const newArrivalData = [
   {
     id: 1,
     img: NewArrivalImg.newArrivalImg1,
@@ -32,4 +32,3 @@ const arrivalData = [
     img: NewArrivalImg.newArrivalImg6,
   },
 ];
-export default arrivalData;

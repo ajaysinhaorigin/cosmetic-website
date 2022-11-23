@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "./HomePageBanner.css";
 import HomePageBannerImg from "../../../../assets/homePageAssets";
-import MainImages from "../mainimages/MainImages.jsx";
+import MainImages from "../MainImages/MainImages.jsx";
 // import Slider from 'react-slick';
 function HomePageBanner() {
   const settings = {

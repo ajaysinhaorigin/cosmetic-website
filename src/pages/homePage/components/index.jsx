@@ -1,15 +1,15 @@
-import HomePageBanner from "./homepagebanner/HomePageBanner.jsx";
-import ShopByCategory from "./shopByCategory/ShopByCategory.jsx";
-import BestSeller from "./bestSellers/BestSeller.jsx";
-import Advertisment from "./addvertisment/Advertisment.jsx";
-import NewArrival from "./newArrivals/NewArrival.jsx";
-import TodaysDeals from "./todaysDeals/TodaysDeals.jsx";
-import SkinConsultation from "./skinConsultation/SkinConsultation.jsx";
-import ShopByBrands from "./shopByBrands/ShopByBrands.jsx";
-import Testimonial from "./testimonials/Testimonial.jsx";
-import SocialMedia from "./socialMedia/SocialMedia.jsx";
+import HomePageBanner from "./HomePageBanner/HomePageBanner.jsx";
+import ShopByCategory from "./ShopByCategory/ShopByCategory.jsx";
+import BestSeller from "./BestSellers/BestSeller.jsx";
+import Advertisment from "./AddVertisment/Advertisment.jsx";
+import NewArrival from "./NewArrivals/NewArrival.jsx";
+import TodaysDeals from "./TodaysDeals/TodaysDeals.jsx";
+import SkinConsultation from "./SkinConsultation/SkinConsultation.jsx";
+import ShopByBrands from "./ShopByBrands/ShopByBrands.jsx";
+import Testimonial from "./Testimonials/Testimonial.jsx";
+import SocialMedia from "./SocialMedia/SocialMedia.jsx";
 
-export default {
+export const HomePageComponents = {
   HomePageBanner,
   ShopByCategory,
   BestSeller,

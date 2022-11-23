@@ -1,7 +1,7 @@
 import React from "react";
-import "./newArrival.css";
-import NewArrivalProducts1 from "./newarrivalProducts/NewArrivalProducts1";
-import NewArrivalProducts2 from "./newarrivalProducts/NewArrivalProducts2";
+import "./NewArrival.css";
+import NewArrivalProducts1 from "./NewArrivalProducts/NewArrivalProducts1";
+import NewArrivalProducts2 from "./NewArrivalProducts/NewArrivalProducts2";
 
 function NewArrival() {
   return (

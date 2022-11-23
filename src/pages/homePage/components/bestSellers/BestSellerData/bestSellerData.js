@@ -4,7 +4,7 @@ import BestSeller from "../../../../../assets/homePageAssets";
 // import sellerimg3 from "../bestSeller-images/13.png"
 // import sellerimg4 from "../bestSeller-images/14.png"
 
-const sellerData = [
+export const bestSellerData = [
   {
     id: 1,
     img: BestSeller.BestSellerimg11,
@@ -30,4 +30,3 @@ const sellerData = [
     img: BestSeller.BestSellerimg14,
   },
 ];
-export default sellerData;

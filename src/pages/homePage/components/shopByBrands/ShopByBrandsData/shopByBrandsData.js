@@ -6,7 +6,7 @@
 // import brandimg20 from "../shopByBrands-images/20.png"
 import BrandsImg from "../../../../../assets/homePageAssets";
 
-const brandData = [
+export const shopByBrandsData = [
   {
     id: 1,
     img: BrandsImg.BrandsImg15,
@@ -48,4 +48,4 @@ const brandData = [
     img: BrandsImg.BrandsImg20,
   },
 ];
-export default brandData;
+

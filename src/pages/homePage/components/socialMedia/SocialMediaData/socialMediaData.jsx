@@ -9,7 +9,7 @@
 // import mediaimg24 from "../socialMedia-images/24.png"
 import socialMedia from "../../../../../assets/homePageAssets";
 
-const mediaData = [
+export const socialMediaData = [
   {
     id: 1,
     icon: socialMedia.facebook,
@@ -39,4 +39,4 @@ const mediaData = [
     img: socialMedia.socialMediaImg24,
   },
 ];
-export default mediaData;
+

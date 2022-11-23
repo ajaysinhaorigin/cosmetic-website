@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "./Search.css";
+import "./SearchBar.css";
 // import logo from './search-icons/logo.jpg'
 // import searchIcon from "./search-icons/search-icon.png";
 // import indianFlag from './search-icons/indian-flag.png';
@@ -7,7 +7,7 @@ import "./Search.css";
 // import profileIcon from "./search-icons/profile-icon.png";
 // import cartIcon from "./search-icons/cart.png"
 import HeaderImg from "../../../assets/headerAssets";
-const Search = () => {
+const SearchBar = () => {
   return (
     <Fragment>
       <div className="container-fluid d-md-flex d-sm-block justify-content-around align-items-center search-component pt-3 pb-3">
@@ -62,4 +62,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default SearchBar;

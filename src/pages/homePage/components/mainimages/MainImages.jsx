@@ -1,5 +1,5 @@
 import React from "react";
-import "./mainimages.css";
+import "./MainImages.css";
 import Slider from "react-slick";
 import MainImagesAssets from "../../../../assets/homePageAssets";
 

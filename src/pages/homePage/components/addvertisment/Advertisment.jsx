@@ -1,5 +1,5 @@
 import React from "react";
-import "./advertisment.css";
+import "./AddVertisment.css";
 import AdvertismentImg from "../../../../assets/homePageAssets";
 // import image15 from "./advertisment-images/15.png";
 // import image16 from "./advertisment-images/16.png";

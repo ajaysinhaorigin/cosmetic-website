@@ -1,5 +1,5 @@
 import React from "react";
-import "./testimonial.css";
+import "./Testimonial.css";
 import Slider from "react-slick";
 import testimonialImg from "../../../../assets/homePageAssets";
 // import algelina from "./testimonial-images/a1.png";

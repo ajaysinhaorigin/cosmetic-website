@@ -6,7 +6,7 @@
 // import categoryimg10 from "../shopByCategory-images/10.png"
 import shopByImages from "../../../../../assets/homePageAssets";
 
-const categoryData = [
+export const shopByCategoryData = [
   {
     id: 1,
     img: shopByImages.categoryImg5,
@@ -48,4 +48,3 @@ const categoryData = [
     product: "LIP CARE",
   },
 ];
-export default categoryData;

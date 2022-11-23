@@ -1,5 +1,5 @@
 import React from "react";
-import "./skinConsultation.css";
+import "./SkinConsultation.css";
 
 function SkinConsultation() {
   return (

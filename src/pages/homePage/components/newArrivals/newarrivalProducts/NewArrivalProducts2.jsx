@@ -1,5 +1,5 @@
 import React from "react";
-import arrivalData from "../newarrivalData/arrivalData";
+import {newArrivalData} from "../NewArrivalData/newArrivalData";
 import Slider from "react-slick";
 
 function NewArrivalProducts2() {
@@ -38,7 +38,7 @@ function NewArrivalProducts2() {
   return (
     <>
       <Slider {...settings}>
-        {arrivalData.map((data) => {
+        {newArrivalData.map((data) => {
           return (
             <React.Fragment key={data.id}>
               <div className="newarrival-img p-3">

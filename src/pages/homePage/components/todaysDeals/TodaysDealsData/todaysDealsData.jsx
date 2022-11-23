@@ -4,7 +4,7 @@
 // import dealimg14 from "../todaysDeals-images/14.png"
 import todaysdealImg from "../../../../../assets/homePageAssets";
 
-const dealData = [
+export const todaysDealsData = [
   {
     id: 1,
     img: todaysdealImg.todaysDealImg11,
@@ -43,4 +43,4 @@ const dealData = [
   },
 ];
 
-export default dealData;
+

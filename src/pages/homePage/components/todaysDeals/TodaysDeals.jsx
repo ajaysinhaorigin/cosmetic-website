@@ -1,6 +1,6 @@
 import React from "react";
-import "./todaysDeals.css";
-import dealsData from "./todaysdealsData/dealsData";
+import "./TodaysDeals.css";
+import { todaysDealsData } from "./TodaysDealsData/todaysDealsData";
 import Slider from "react-slick";
 
 function TodaysDeals() {
@@ -35,7 +35,7 @@ function TodaysDeals() {
       </div>
       <div>
         <Slider {...settings}>
-          {dealsData.map((todaydeal) => {
+          {todaysDealsData.map((todaydeal) => {
             return (
               <React.Fragment key={todaydeal.id}>
                 <div className="p-2">

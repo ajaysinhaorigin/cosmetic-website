@@ -1,6 +1,6 @@
 import React from "react";
-import "./shopByBrands.css";
-import brandData from "./shopbybrandData/brandsData";
+import "./ShopByBrands.css";
+import {shopByBrandsData} from "./ShopByBrandsData/shopByBrandsData";
 import Slider from "react-slick";
 
 function ShopByBrands() {
@@ -35,7 +35,7 @@ function ShopByBrands() {
       </div>
       <div>
         <Slider {...settings}>
-          {brandData.map((shopbybranddata) => {
+          {shopByBrandsData.map((shopbybranddata) => {
             return (
               <React.Fragment key={shopbybranddata.id}>
                 <div className="shopbybrand-img p-1 mx-1">

@@ -1,6 +1,6 @@
 import React from "react";
-import mediaData from "./socialmediaData/mediaData";
-import "./socialMedia.css";
+import {socialMediaData} from "./SocialMediaData/socialMediaData";
+import "./SocialMedia.css";
 import Slider from "react-slick";
 
 function SocialMedia() {
@@ -35,7 +35,7 @@ function SocialMedia() {
         <p>Stay tuned for Updates</p>
       </div>
       <div className="container d-flex">
-        {mediaData.map((todaydeal) => {
+        {socialMediaData.map((todaydeal) => {
           return (
             <React.Fragment key={todaydeal.id}>
               <div className="todaysdeals-img p-1">
@@ -47,7 +47,7 @@ function SocialMedia() {
       </div>
       <div className="social_media_slider">
         <Slider {...settings}>
-          {mediaData.map((todaydeal) => {
+          {socialMediaData.map((todaydeal) => {
             return (
               <React.Fragment key={todaydeal.id}>
                 <div className="todaysdeals-img p-1">

@@ -1,6 +1,6 @@
 import React from "react";
-import sellersData from "./bestsellerData/sellerData.jsx";
-import "./bestSeller.css";
+import { bestSellerData } from "./BestSellerData/bestSellerData";
+import "./BestSeller.css";
 import Slider from "react-slick";
 
 function BestSeller() {
@@ -35,7 +35,7 @@ function BestSeller() {
       </div>
       <div>
         <Slider {...settings}>
-          {sellersData.map((bestsellerdata) => {
+          {bestSellerData.map((bestsellerdata) => {
             return (
               <React.Fragment key={bestsellerdata.id}>
                 <div className="bestsellers-img p-1 px-2">

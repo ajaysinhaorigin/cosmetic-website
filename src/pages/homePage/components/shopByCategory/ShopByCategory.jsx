@@ -1,6 +1,6 @@
 import React from "react";
-import "./shopByCategory.css";
-import categoryData from "./shopbycategory/categoryData";
+import "./ShopByCategory.css";
+import { shopByCategoryData } from "./ShopByCategoryData/shopByCategoryData";
 import Slider from "react-slick";
 
 function NewArrival() {
@@ -36,7 +36,7 @@ function NewArrival() {
       <div className="container d-flex text-center">
         <div className="main-shopbycategory-images container">
           <Slider {...settings}>
-            {categoryData.map((data) => {
+            {shopByCategoryData.map((data) => {
               return (
                 <React.Fragment key={data.id}>
                   <div className="px-3">

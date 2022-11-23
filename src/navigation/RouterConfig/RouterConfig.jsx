@@ -8,7 +8,7 @@ import {categories} from '../../components/Categories.jsx'
   return (
     <>
     <Routes>
-        <Route path="/" element={<pages.Main />}></Route>
+        {/* <Route path="/" element={<pages.Main />}></Route> */}
         {/* <Route path='category/2' element={<pages.ShopBy/>} />
         <Route path='category/1'  element={<pagesCategory/>} />
         <Route path='category/3' element={<pages.Category/>} />

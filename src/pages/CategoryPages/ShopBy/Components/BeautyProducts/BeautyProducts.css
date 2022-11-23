@@ -1,0 +1,10 @@
+/* .beaty_products{
+    max-width: 3rem;
+} */
+.beaty_products_div {
+    background-color: hsl(0, 0%, 95%);
+}
+.beaty_products img {
+    display: block;
+    width: 100%;
+}
